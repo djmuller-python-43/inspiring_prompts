@@ -40,7 +40,7 @@ const MyProfile = () => {
 
         const filteredPrompts = prompts.filter((item) => item._id !== prompt._id);
 
-        setMyPosts(filteredPrompts);
+        setPrompts(filteredPrompts);
       } catch (error) {
         console.log(error);
       }
