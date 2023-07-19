@@ -1,7 +1,7 @@
 import { connectDB } from "@utils/database"
 import Prompt from "@models/prompt"
 
-export const GET = async (req, { params }) => {
+export const GET = async (request, { params }) => {
   try {
     await connectDB()
 
